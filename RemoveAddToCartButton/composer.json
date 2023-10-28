@@ -1,0 +1,24 @@
+{
+  "name": "eg-solution/module-remove-add-to-cart-button",
+  "version": "1.0.0",
+  "description": "On the product detail page try to remove the "
+  Add
+  to
+  cart
+  " button using layout",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*"
+  },
+  "license": [
+    "Proprietary"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "EGSolution\\RemoveAddToCartButton\\": ""
+    }
+  }
+}

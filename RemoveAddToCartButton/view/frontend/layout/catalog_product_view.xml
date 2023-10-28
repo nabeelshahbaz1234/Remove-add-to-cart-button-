@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <!-- Remove the Add to Cart button for Simple Products -->
+        <referenceBlock name="product.info.addtocart" remove="true" />
+
+        <!-- Remove the Add to Cart button for Configurable Products -->
+        <referenceBlock name="product.info.addtocart.additional" remove="true" />
+    </body>
+</page>
